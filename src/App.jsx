@@ -5,9 +5,9 @@ import About from "./components/about/About";
 import Team from "./components/team/Team";
 import Carrer from "./Components/pricing/Pricing";
 import Blog from "./components/blog/Blog";
-import Contact from "./Components/contact/Contact"
 import Footer from "./components/common/footer/Footer";
 import Home from "./Components/home/Home";
+import Contact from "./Components/contact/Contact";
 function App() {
   return (
     <>
@@ -19,7 +19,7 @@ function App() {
           <Route path="/team" element={<Team/>} />
           <Route path="/carrer" element={<Carrer/>} />
           <Route path="/blogs" element={<Blog/>} />
-          <Route path="/contact" component={<Contact/>} />
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer />
       </Router>

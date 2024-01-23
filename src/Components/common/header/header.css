@@ -10,6 +10,14 @@
 .head .icon {
   margin-left: 10px;
 }
+
+.social{
+  display: flex;
+}
+
+.social.icon{
+  padding: 5px;
+}
 /*--------head------------*/
 /*--------header------------*/
 header {
